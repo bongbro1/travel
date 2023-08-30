@@ -22,7 +22,7 @@ img {
     padding: 1rem 0;
 }
 .header {
-    background-image: url('/source/img/header.png');
+    background-image: url('source//img/header.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -81,25 +81,25 @@ img {
     background-repeat: no-repeat;
 }
 .banner.a {
-    background-image: url(/source/img/header/h1.gif);
+    background-image: url(source//img/header/h1.gif);
 }
 .banner.b {
-    background-image: url(/source/img/header/h2.gif);
+    background-image: url(source//img/header/h2.gif);
 }
 .banner.c {
-    background-image: url(/source/img/header/h3.gif);
+    background-image: url(source//img/header/h3.gif);
 }
 .banner.ba {
-    background-image: url(/source/img/body/bl1.gif);
+    background-image: url(source//img/body/bl1.gif);
 }
 .banner.bb {
-    background-image: url(/source/img/body/bl2.gif);
+    background-image: url(source//img/body/bl2.gif);
 }
 .banner.br {
-    background-image: url(/source/img/body/br1.gif);
+    background-image: url(source//img/body/br1.gif);
 }
 .banner.br1 {
-    background-image: url(/source/img/body/post/b5.gif);
+    background-image: url(source//img/body/post/b5.gif);
 }
 .banner_content {
     position: absolute;
@@ -159,7 +159,7 @@ span i {
     height: 400px;
     color: #fff;
     position: relative;
-    background-image: url(/source/img/b1.gif);
+    background-image: url(source//img/b1.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -381,7 +381,7 @@ span i {
 }
 /* post */
 .content_slider-2 {
-    background-image: url(/source/img/b2.gif);
+    background-image: url(source//img/b2.gif);
 }
 
 .content-left > .post_large_content h3 {
