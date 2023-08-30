@@ -42,9 +42,14 @@ img {
     justify-content: flex-end;
     align-items: center;
     height: 100%;
+    margin-bottom: 0;
 }
 .header_top-icons > li {
     padding-left: 20px;
+    cursor: pointer;
+}
+.header_top-icons > li:hover {
+    opacity: 0.8;
 }
 .header_nav {
     margin-top: 2.2rem;
@@ -69,7 +74,21 @@ img {
 }
 .header_nav a:hover {
     text-decoration: none;
-    color: #fff;
+    background-color: #e6e4e4;
+    color: #000000;
+    cursor: pointer;
+    box-shadow: 0 0 5px #ccc;
+    opacity: 0.8;
+}
+.header_nav-action i:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.header i {
+    font-size: 1.2rem;
+}
+.header_nav i {
+    font-size: 2.1rem;
 }
 
 /* header banner */
@@ -109,6 +128,10 @@ img {
     padding: 35px 25px;
     color: #fff;
     background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.65) 70%);
+}
+.banner_content:hover {
+    cursor: pointer;
+    opacity: 0.9;
 }
 .banner_label {
     color: black;
@@ -273,6 +296,10 @@ span i {
     background-size: cover;
     position: relative;
 }
+.banner:hover {
+    cursor: pointer;
+    transform: scale(0.99);
+}
 .content-right .banner > p {
     position: absolute;
     top: 50%;
@@ -285,6 +312,11 @@ span i {
 .post {
     display: flex;
     margin-top: 3.7rem;
+}
+.social:hover ,.post:hover, .post_large:hover, .banner_centerp:hover, .img_footer:hover {
+    transition: transform ease 1s;
+    transform: scale(0.99);
+    opacity: 0.9;
     cursor: pointer;
 }
 .post_img {
@@ -449,9 +481,13 @@ span i {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 20px;
+    right: 16px;
+    padding: 18px;
     font-size: 24px;
     cursor: pointer;
+}
+.search_box_btn-search:hover {
+    background-color: #e98b8b;
 }
 
 .posts_popular > h3 {
@@ -630,4 +666,17 @@ span i {
     .most_popular_center {
         margin-bottom: 10rem;
     }
+    .header_nav-action {
+        display: block;
+    }
+    .header_nav .bar {
+        display: block;
+        font-size: 2.5rem;
+        padding: 0.8rem;
+        margin-left: 5rem;
+    }
+}
+
+/* Mobile */
+@media (min-width: 768px) and (max-width: 1023px) {
 }
