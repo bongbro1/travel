@@ -622,9 +622,6 @@ span i {
     display: flex;
     justify-content: space-between;
 }
-.footer_col:last-child {
-    padding-left: 32px;
-}
 .footer_col {
     padding-top: 11rem;
 }
@@ -661,7 +658,12 @@ span i {
     position: relative;
     margin: auto;
 }
-
+@media (min-width: 1024px) {
+    .footer_col:last-child {
+        padding-left: 5.2rem;
+        padding-right: 0;
+    }
+}
 /*Tablet & Mobile*/
 @media (max-width: 1023px) {
     .header_nav .bar {
