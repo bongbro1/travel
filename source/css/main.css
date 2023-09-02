@@ -688,7 +688,10 @@ span i {
         padding-bottom: 6rem;
     }
     .footer_col {
-        padding-top: 8rem;
+        padding-top: 6rem;
+    }
+    .footer_coppyright {
+        padding: 6rem 0;
     }
 }
 /* Tablet */
@@ -704,9 +707,6 @@ span i {
     }
     .most_popular.col-12 .post {
         width: 48%;
-    }
-    .footer_coppyright {
-        padding: 8rem 0;
     }
 }
 
