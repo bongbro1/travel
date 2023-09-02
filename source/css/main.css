@@ -326,11 +326,8 @@ span i {
     padding-bottom: 3px;
     font-family: 'Gotham';
 }
-.post:hover h3, .post_large:hover .post_large_content h3, .post_large:hover .post_large_content .banner_comment, .post_large:hover .post_large_content .banner_date, .post:hover h5, .post:hover .banner_comment, .post:hover .banner_date{
+.post:hover h3, .post_large:hover .post_large_content h3, .post:hover h5, .banner_centerp:hover h3 {
     color: #17a2b8;
-}
-.footer .post:hover h5, .footer .post:hover .banner_comment, .footer .post:hover .banner_date {
-    color: #ccc;
 }
 /* content right */
 
