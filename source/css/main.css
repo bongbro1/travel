@@ -286,10 +286,6 @@ span i {
 }
 
 /* post */
-.content-right {
-    margin-top: 1.2rem;
-
-}
 .content-right .banner {
     background-repeat: no-repeat;
     background-position: center;
@@ -330,7 +326,12 @@ span i {
     padding-bottom: 3px;
     font-family: 'Gotham';
 }
-
+.post:hover h3, .post_large:hover .post_large_content h3, .post_large:hover .post_large_content .banner_comment, .post_large:hover .post_large_content .banner_date, .post:hover h5, .post:hover .banner_comment, .post:hover .banner_date{
+    color: #17a2b8;
+}
+.footer .post:hover h5, .footer .post:hover .banner_comment, .footer .post:hover .banner_date {
+    color: #ccc;
+}
 /* content right */
 
 .socials {
@@ -428,7 +429,7 @@ span i {
 
 .post_large {
     display: flex;
-    margin: 5rem 0;
+    margin: 3.8rem 0;
     cursor: pointer;
 }
 .post_large > .post_large_content {
@@ -627,6 +628,7 @@ span i {
 }
 .footer_col .post {
     width: 100%;
+    padding-bottom: 1.5rem;
 }
 .footer_col.imgs_gallery {
     width: 330px;
@@ -644,7 +646,7 @@ span i {
 }
 .footer_col .imgs img {
     object-fit: contain;
-    padding-bottom: 10px;
+    padding-bottom: 3rem;
 }
 .footer_coppyright {
     text-align: center;
@@ -666,6 +668,14 @@ span i {
 }
 /*Tablet & Mobile*/
 @media (max-width: 1023px) {
+    .header_nav .row {
+        position: relative;
+    }
+    .header_nav .header_nav-action {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     .header_nav .bar {
         display: block;
         font-size: 2.5rem;
@@ -676,6 +686,9 @@ span i {
     }
     .post_center .col-12.col-lg-3 {
         padding-bottom: 6rem;
+    }
+    .footer_col {
+        padding-top: 8rem;
     }
 }
 /* Tablet */
@@ -692,10 +705,16 @@ span i {
     .most_popular.col-12 .post {
         width: 48%;
     }
+    .footer_coppyright {
+        padding: 8rem 0;
+    }
 }
 
 /* Mobile */
 @media (max-width: 767px) {
+    .header_nav .bar, .header_nav h2 {
+        font-size: 2rem;
+    }
     .header_nav .bar {
         margin-left: 2.4rem;
     }
@@ -707,6 +726,9 @@ span i {
     }
     .most_popular_center {
         margin-bottom: 10rem;
+    }
+    .name_heading {
+        padding-bottom: 1rem;
     }
     .content_heading {
         font-size: 2.8rem;
