@@ -14,7 +14,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <title>Travelerbies</title>
-    <script src="source/js/main.js"></script>
 </head>
 <body>
     <div class="header">
@@ -22,7 +21,7 @@
             <div class="header_content container d-flex align-items-center justify-content-end">
                 <div class="row">
                     <ul class="header_top-icons col-sm-12">
-                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-facebook-f js"></i></li>
                         <li><i class="fa-brands fa-twitter"></i></li>
                         <li><i class="fa-brands fa-youtube"></i></li>
                     </ul>
@@ -35,14 +34,14 @@
                     <h2 class="header_logo text-center col-lg-11">Travelerbies</h2>
                     <div class="header_nav-action col-lg-1 d-flex justify-content-start justify-content-lg-between align-items-center">
                         <i class="fa-solid fa-magnifying-glass d-none d-lg-block"></i>
-                        <i class="fa-solid fa-bars bar"></i>
+                        <i class="fa-solid fa-bars bar js_bar"></i>
                     </div>
                 </div>
             </div>
             <!-- navbar -->
-            <div class="container d-none d-lg-block">
-                <div class="row  d-flex justify-content-center">
-                    <ul class="header_nav col-lg-8 d-flex justify-content-between">
+            <div class="container header_nav_menu">
+                <div class="row d-flex justify-content-center">
+                    <ul class="header_nav col-lg-8 d-lg-flex justify-content-between js_bar">
                         <li><a href="">Home</a></li>
                         <li><a href="">Features</a></li>
                         <li><a href="">Travel</a></li>
@@ -328,7 +327,7 @@
                     <div class="posts">
                         <div class="post_large">
                             <div class="row">
-                                <img class="post_large_img col-sm-4" src="source/img/body/post/a1.gif" alt="">
+                                <div class="col-sm-4"><img src="source/img/body/post/a1.gif" alt=""></div>
                                 <div class="post_large_content col-sm-8">
                                     <div class="name_heading">
                                         <div class="banner_label">Lifesyle</div>
@@ -342,7 +341,7 @@
                         </div>
                         <div class="post_large">
                             <div class="row">
-                                <img class="post_large_img col-sm-4" src="source/img/body/post/a2.gif" alt="">
+                                <div class="col-sm-4"><img src="source/img/body/post/a2.gif" alt=""></div>
                                 <div class="post_large_content col-sm-8">
                                     <div class="name_heading">
                                         <div class="banner_label">Lifesyle</div>
@@ -356,7 +355,7 @@
                         </div>
                         <div class="post_large">
                             <div class="row">
-                                <img class="post_large_img col-sm-4" src="source/img/body/post/a3.gif" alt="">
+                                <div class="col-sm-4"><img src="source/img/body/post/a3.gif" alt=""></div>
                                 <div class="post_large_content col-sm-8">
                                     <div class="name_heading">
                                         <div class="banner_label">Lifesyle</div>
@@ -444,7 +443,7 @@
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="banner_centerp mb-5 mb-lg-0">
                             <div class="banner_center">
-                                <img src="source/img/body/banner/h1.gif" alt="" class="banner_center_img">
+                                <div class="banner_center_img"><img src="source/img/body/banner/h1.gif" alt="" ></div>
                                 <div class="banner_content_center">
                                     <div class="banner_label">Lifesyle</div>
                                     <h3>Lorem ipsum is simply dummy Text of the printing</h3>
@@ -646,9 +645,19 @@
             </div>
             <h4 class="footer_coppyright">&copy; 2016 ALL RIGHT RESERVED  PSDFreebies.com</h4>
         </div>
+        <div class="footer_container">
+            <div class="footer_sliders">
+                <div class="picture_box unclose">
+                    <img class="img_feature" src="source/img/body/banner/m1.gif" alt="">
+                </div>
+                <div class="control_prev unclose"><i class="fa-solid fa-angle-left"></i></div>
+                <div class="control_next unclose"><i class="fa-solid fa-angle-right"></i></div>
+            </div>
+        </div>
     </div>
+    <script src="source/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
